@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <style>
+        html {
+            background-color: #000000cc;
+        }
+
+        .elementList {
+            color: white;
+            font-size: 13px;
+        }
+
+        .elementList img {
+            width: 40px;
+            height: 30px;
+            margin-right: 20px;
+            ;
+        }
+
+        .paginationSection,
+        #otherBtns {
+            display: flex;
+        }
+
+        .paginationSection button {
+            margin: 10px;
+        }
+
+        .activeBtn {
+            border: none;
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <button id='call'>Fetch Data </button>
+
+    <div id='table'>
+
+    </div>
+
+    <div class="paginationSection">
+        <button id='prevPagination'>Prev</button>
+
+        <div id='otherBtns'>
+
+        </div>
+
+        <button id='nextPagination'>Next</button>
+    </div>
+
+    <script type="text/javascript" src='./app.js'></script>
+</body>
+
+</html>
