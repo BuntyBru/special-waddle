@@ -1,0 +1,39 @@
+body {
+  background: rgba(8, 8, 8, 0.719);
+}
+
+.container {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-1 {
+  background: #ff7171;
+
+  flex-basis: 23%;
+  align-self: flex-end;
+}
+
+.item-2 {
+  background: #ffaa71;
+
+  flex-basis: 23%;
+}
+.item-3 {
+  background: #fa71ff;
+  flex-basis: 23%;
+}
+.item-4 {
+  background: #71ffa7;
+  flex-basis: 23%;
+}
+.item-5 {
+  background: #717fff;
+  flex-basis: 23%;
+}
